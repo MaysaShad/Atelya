@@ -1,15 +1,15 @@
 <div class="fw-semibold bg-white border rounded p-3 shadow-xxl shadow">
     <div class="row g-2 ">
-    <div class="col-2 ">
+    <div class="col-1">
             @if($obj->image)
             @else
-                <img src="{{ asset('img/clothes.jpg') }}" alt="" class="img-fluid w-50">
+                <img src="{{ asset('img/clothes.jpg') }}" alt="" class="img-fluid ">
             @endif
         </div>
-        <div class="col fs-4 ">
+        <div class="col-5 fs-3 pt-3  ">
             {{ $obj->title }}
         </div>
-        <div class="col fs-5 pt-2 text-secondary">
+        <div class="col-6 fs-5 pt-4 text-secondary ">
             <span class="fw-bold">Price:</span>
             <span class="{{ (isset($f_minPrice) or isset($f_maxPrice)) ? 'mark':'' }}">{{ number_format($obj->price, 1, '.', '') }} <small>$</small></span>
         </div>
