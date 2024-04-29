@@ -9,7 +9,7 @@
         <div class="mb-3">
             <label for="category" class="form-label fw-semibold">Type of clothes</label>
             <select class="form-select" id="category" name="category">
-                @foreach($categories as $category)  
+                @foreach($categories as $category)
                     <option value="{{ $category->id }}" {{ $category->id == $f_category ? 'selected':'' }}>
                         {{ $category->name }} 
                     </option>
