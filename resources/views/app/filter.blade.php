@@ -12,7 +12,7 @@
                 @foreach($categories as $category)
                     <option value="{{ $category->id }}" {{ $category->id == $f_category ? 'selected':'' }}>
                         {{ $category->name }}
-                    </optio>
+                    </option>
                 @endforeach
             </select>
         </div>
