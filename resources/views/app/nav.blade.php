@@ -1,6 +1,6 @@
 
 
-<nav class=" navbar navbar-expand-mg navbar-dark bg-info" >
+<nav class=" navbar navbar-expand-mg navbar-dark bg-info sticky-top">
     <div class="container-xl ">
         <div class="h1 text-white text-center fw-bold">
             <a class="text-decoration-none text-white" href="{{ route('home') }}"><i>FASHION BEAUTY</i></a> 
