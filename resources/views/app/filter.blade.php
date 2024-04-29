@@ -11,7 +11,7 @@
             <select class="form-select" id="category" name="category">
                 @foreach($categories as $category)
                     <option value="{{ $category->id }}" {{ $category->id == $f_category ? 'selected':'' }}>
-                        {{ $category->name }}
+                        {{ $category->name }} 
                     </option>
                 @endforeach
             </select>
