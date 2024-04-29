@@ -1,13 +1,20 @@
 <div class="fw-semibold bg-white border rounded p-3 shadow-xxl shadow">
     <div class="row g-2 ">
-        <div class="col-6 fs-4">
+    <div class="col-2 ">
+            @if($obj->image)
+            @else
+                <img src="{{ asset('img/clothes.jpg') }}" alt="" class="img-fluid w-50">
+            @endif
+        </div>
+        <div class="col fs-4 ">
             {{ $obj->title }}
         </div>
-        <div class="col-6 fs-5 pt-2 text-secondary">
+        <div class="col fs-5 pt-2 text-secondary">
             <span class="fw-bold">Price:</span>
             <span class="{{ (isset($f_minPrice) or isset($f_maxPrice)) ? 'mark':'' }}">{{ number_format($obj->price, 1, '.', '') }} <small>$</small></span>
         </div>
-        <hr>
+        
+    <hr>
         
         <div class="col-6 text-truncate">
             <span class="text-secondary">Type:</span>

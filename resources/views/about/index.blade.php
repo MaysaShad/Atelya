@@ -20,7 +20,7 @@
                                         The tailors meticulously work to create a dress that perfectly fits you, taking your ideas and body shape into consideration.
                                     </div>
                                     <div class="col">
-                                        <img src="{{ asset('img/logo.jpg') }}" alt="" class="img-fluid">
+                                        <img src="{{ asset('img/clothes.jpg') }}" alt="" class="img-fluid h-100">
                                     </div>
                                 </div>
                             </div>

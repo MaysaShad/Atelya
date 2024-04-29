@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Atelya</title>
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <link rel="shortcut icon" href="{{ asset('img/logo.jpg') }}">
+    <link rel="shortcut icon" href="{{ asset('img/logo.png') }}">
     <script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 </head>
 <body class="bg-light">
