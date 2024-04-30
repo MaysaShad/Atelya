@@ -3,7 +3,7 @@
     <div class="col-1">
             @if($obj->image)
             @else
-                <img src="{{ asset('img/clothes.jpg') }}" alt="" class="img-fluid ">
+                <img src="{{ asset('img/clothes.jpg') }}" alt="" class="img-fluid">
             @endif
         </div>
         <div class="col-5 fs-3 pt-3  ">

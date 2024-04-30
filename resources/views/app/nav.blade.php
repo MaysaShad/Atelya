@@ -19,6 +19,9 @@
             <li class="nav-item h5 fw-bold">
                 <a class="nav-link text-white " aria-disabled="true" href="{{ route('contacts.index') }}">CONTACT US</a>
             </li>
+            <li class="nav-item h5 fw-bold">
+                <a class="nav-link text-white " aria-disabled="true" href="{{ url('/orders') }}">Order</a>
+            </li>
             </ul>
         </div>
     </div>
